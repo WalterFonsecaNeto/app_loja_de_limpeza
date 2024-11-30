@@ -46,3 +46,4 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+node_modules
