@@ -1,0 +1,25 @@
+.hero {
+  background-color: var(--accent);
+  padding: 4rem 0;
+}
+
+.hero-title span {
+  color: var(--primary);
+  display: block;
+}
+
+.feature-icon {
+  color: var(--primary);
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card {
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
