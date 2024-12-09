@@ -2,7 +2,7 @@ import { ShoppingCart, Search } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Navbar.css";
-import ProtectedRoute from "../ProtectedRoute";
+import ProtectedRoute from "../Routes/ProtectedRoute";
 
 function Navbar() {
   const [pesquisa, setPesquisa] = useState("");
